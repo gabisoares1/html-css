@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexíveis</title>
+</head>
+<body>
+    <h1>Carregando imagens de diferentes tamanhos</h1>
+    <p>Nesse desafio usaremos a tag &lt; picture &gt; para carregar imagens flexíveis que se adaptam a dispositivos diferentes.</p>
+
+    <picture>
+        <source media="(max-width: 700px )" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1250px )" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="Imagem Flexível">
+    </picture>
+
+
+    
+</body>
+</html>
